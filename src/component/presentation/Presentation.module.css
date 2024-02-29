@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+    background:  #ffffff;
+}
+.imageContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    border-radius: 90px;
+    
+    background:linear-gradient(to top, #ffffff,  #016FB8);
+}
+.image{
+    display: flex;
+    align-self: center;
+    height: 80%;
+    width: auto;
+    border-radius: 50px;
+    display: flex;
+    margin-left: 60px;
+    padding: 10px;
+}
+.textContainer{
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 100px ;
+
+    text-align: right;
+}
+.title{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.paragraph1{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
